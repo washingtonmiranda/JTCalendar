@@ -46,7 +46,15 @@
     NSMutableArray *views = [NSMutableArray new];
     
     for(int i = 0; i < 7; ++i){
-        UIView *view = [JTCalendarDayView new];
+        UIView *view;
+        Class class = NSClassFromString(@"MyJTCalendarDayView");
+        if (class && [class isSubclassOfClass:[UIView class]] && [class conformsToProtocol:@protocol(JTCalendarDayView)]) {
+            // use a MyJTCalendarDayView instance (user defined class)
+            view = [class new];
+        } else {
+            // use a JTCalendarDayView instance (default class)
+            view = [JTCalendarDayView new];
+        }
         
         [views addObject:view];
         [self addSubview:view];

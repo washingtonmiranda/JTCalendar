@@ -14,6 +14,7 @@
 		AB6843EE1A06FCE2000ADE68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB6843EC1A06FCE2000ADE68 /* Main.storyboard */; };
 		AB6843F01A06FCE2000ADE68 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6843EF1A06FCE2000ADE68 /* Images.xcassets */; };
 		AB6843F31A06FCE2000ADE68 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6843F11A06FCE2000ADE68 /* LaunchScreen.xib */; };
+		F1F04FDB1B116AF3003AB0D7 /* MyJTCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1F04FDA1B116AF3003AB0D7 /* MyJTCalendarDayView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		AB6843F21A06FCE2000ADE68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ACB1558A205302184CDC8B78 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		EA29A33B12777736F86B89BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F04FD91B116AF3003AB0D7 /* MyJTCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyJTCalendarDayView.h; sourceTree = "<group>"; };
+		F1F04FDA1B116AF3003AB0D7 /* MyJTCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyJTCalendarDayView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 				AB6843E71A06FCE2000ADE68 /* AppDelegate.m */,
 				AB6843E91A06FCE2000ADE68 /* ViewController.h */,
 				AB6843EA1A06FCE2000ADE68 /* ViewController.m */,
+				F1F04FD91B116AF3003AB0D7 /* MyJTCalendarDayView.h */,
+				F1F04FDA1B116AF3003AB0D7 /* MyJTCalendarDayView.m */,
 				AB6843EC1A06FCE2000ADE68 /* Main.storyboard */,
 				AB6843EF1A06FCE2000ADE68 /* Images.xcassets */,
 				AB6843F11A06FCE2000ADE68 /* LaunchScreen.xib */,
@@ -211,6 +216,7 @@
 				AB6843EB1A06FCE2000ADE68 /* ViewController.m in Sources */,
 				AB6843E81A06FCE2000ADE68 /* AppDelegate.m in Sources */,
 				AB6843E51A06FCE2000ADE68 /* main.m in Sources */,
+				F1F04FDB1B116AF3003AB0D7 /* MyJTCalendarDayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

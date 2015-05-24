@@ -9,7 +9,23 @@
 
 #import "JTCalendar.h"
 
-@interface JTCalendarDayView : UIView
+@protocol JTCalendarDayView <NSObject>
+
+-(void)setCalendarManager:(JTCalendar*)calendarManager;
+-(JTCalendar*)calendarManager;
+
+-(void)setDate:(NSDate*)date;
+-(NSDate*)date;
+
+-(void)setIsOtherMonth:(BOOL)isOtherMonth;
+-(BOOL)isOtherMonth;
+
+- (void)reloadData;
+- (void)reloadAppearance;
+
+@end
+
+@interface JTCalendarDayView : UIView <JTCalendarDayView>
 
 @property (weak, nonatomic) JTCalendar *calendarManager;
 
